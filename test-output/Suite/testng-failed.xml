@@ -3,11 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testNG.Emailable">
+      <class name="Pom_with_PageFatory_Using_TestNG.Test_Using_TestNG">
         <methods>
-          <include name="TC3"/>
+          <include name="closeApp"/>
+          <include name="verifyText"/>
+          <include name="openApp"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- testNG.Emailable -->
+      </class> <!-- Pom_with_PageFatory_Using_TestNG.Test_Using_TestNG -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
